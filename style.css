@@ -1,0 +1,70 @@
+#red, #green, #blue {
+    float: left;
+    clear: left;
+    width: 300px;
+    margin: 15px;
+}
+
+#swatch {
+    width: 120px;
+    height: 100px;
+    margin-top: 18px;
+    margin-left: 350px;
+    background-image: none;
+}
+
+#red .ui-slider-range {
+    background: #ef2929;
+}
+
+#red .ui-slider-handle {
+    border-color: #ef2929;
+}
+
+#green .ui-slider-range {
+    background: #8ae234;
+}
+
+#green .ui-slider-handle {
+    border-color: #8ae234;
+}
+
+#blue .ui-slider-range {
+    background: #729fcf;
+}
+
+#blue .ui-slider-handle {
+    border-color: #729fcf;
+}
+
+fieldset {
+    border: 2px ridge grey;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+}
+
+input {
+    visibility: hidden;
+    margin: 0px;
+}
+
+label {
+    float: left;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 6px 12px;
+}
+
+input:checked+label {
+    background: rgb(31, 119, 252);
+    color: white
+}
