@@ -1,3 +1,4 @@
+'use strict'
 $(function () {
     let colorType = "background-color"
     $("#colorButton").on("click", function () {
@@ -24,9 +25,7 @@ $(function () {
             green = $("#green").slider("value"),
             blue = $("#blue").slider("value"),
             hex = hexFromRGB(red, green, blue);
-        hexText = hexFromRGB(red + 10, green + 10, blue + 10);
         $("#swatch").css(colorType, "#" + hex)
-        //$("#swatch").css("color", "#" + hexText)
     }
 
     $("#red, #green, #blue").slider({
